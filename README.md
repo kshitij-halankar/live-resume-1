@@ -1,5 +1,3 @@
-> [切换到中文版](https://github.com/guilhermeborgesbastos/live-resume/blob/master/README-ZH.md)
-
 <h1 align="center">
   <br>
   The Ultimate Personal Web Resume📃
