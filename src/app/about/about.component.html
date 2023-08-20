@@ -1,20 +1,19 @@
 <section id="about" itemscope itemtype="https://schema.org/AboutPage">
     <div class="about-container" itemscope itemtype="https://schema.org/Person">
         <!-- structured data properties -->
-        <meta itemprop="jobTitle" content="Full-stack Java Developer" />
+        <meta itemprop="jobTitle" content="{{ 'tag_job_title' | translate }}" />
         <meta itemprop="knowsLanguage" content="en" />
-        <meta itemprop="knowsLanguage" content="pt" />
-        <meta itemprop="nationality" content="Brazil" />
-        <meta itemprop="gender" content="Male" />
+        <meta itemprop="nationality" content="{{ 'tag_nationality' | translate }}" />
+        <meta itemprop="gender" content="{{ 'tag_gender' | translate }}" />
         <meta itemprop="email" content="guilhermeborgesbastos@gmail.com" />
-        <meta itemprop="birthDate" content="1993-06-29" />
-        <meta itemprop="url" content="https://www.guilhermeborgesbastos.com" />
+        <meta itemprop="birthDate" content="{{ 'tag_dob' | translate }}" />
+        <meta itemprop="url" content="{{ 'tag_url' | translate }}" />
         <div class="first-column">
             <h1 i18n="nav@@aboutMe">About me</h1>
-            <h2><span itemprop="name">{{ name }}</span></h2>
+            <h2><span itemprop="name">{{ 'tag_name' | translate }}</span></h2>
             <p class="years-old">
                 <span itemprop="yearsOld">{{ yearsOld }}</span>
-                &nbsp;<span i18n="about@@yearsOld">years old</span>
+                &nbsp;<span i18n="about@@yearsOld">{{ 'tag_years_old' | translate }}</span>
             </p>
             <p class="text" appInternationalization [data]="aboutData?.internationalizations" property='description' itemprop="summary">Loading...</p>
             <div class="hobbies">

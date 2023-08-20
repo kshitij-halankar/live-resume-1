@@ -6,6 +6,7 @@ import { FaIconLibrary } from "@fortawesome/angular-fontawesome";
 import { fas } from "@fortawesome/free-solid-svg-icons";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import { Subscription } from "rxjs";
+import { tags } from "src/assets/tags/tags";
 
 @Component({
   selector: "app-about",
@@ -28,8 +29,8 @@ export class AboutComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit(): void {
-    this.name = environment.personal.name;
-    this.yearsOld = this.calcAge(environment.personal.birth);
+    this.name = tags.tag_name;
+    this.yearsOld = this.calcAge(tags.tag_dob);
 
     // Fetches the About information from the Data Service (about.json file).
     this.subscription = this.dataService.getAbout()

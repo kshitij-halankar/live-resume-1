@@ -253,7 +253,7 @@
         <note priority="1" from="description">about</note>
       </trans-unit>
       <trans-unit id="hello" datatype="html">
-        <source>Hello!</source>
+        <source>Hey There!</source>
         <target>Olá!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/welcome/welcome-dialog/welcome-dialog.component.html</context>
