@@ -1,5 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 import { environment } from '../../environments/environment';
+import { tags } from "src/assets/tags/tags";
 
 @Component({
   selector: "app-welcome",
@@ -12,11 +13,11 @@ export class WelcomeComponent {
   constructor() {}
 
   get characterIllustration(): string {
-    return environment.personal.caricature;
+    return tags.tag_welcome_img;
   }
 
   get characterName(): string {
-    return environment.personal.name;
+    return tags.tag_name;
   }
 
 }

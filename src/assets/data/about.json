@@ -1,47 +1,43 @@
 {
     "internationalizations": [
         {
-            "language": "pt",
-            "description": "Minha caminhada como <i>programador</i> teve início aos nove anos de idade quando me apaixonei pelo <i>Logo</i>, uma linguagem de programação educacional usada para cativar crianças nas maravilhosas terras da <i>Programação</i>. Costumava passar horas seguidas tentando criar figuras e animações, usando matemática e geometria. Naquela época, eu simplesmente não conhecia os desafios emocionantes que ainda estavam por vir.<br><br>Alguns anos depois, consegui um estágio como <i>Webmaster</i>, desde então, nunca mais parei, sendo mais de uma década, onde venho tendo a chance de trabalhar com pessoas maravilhosas, aprendendo todos os dias, viajando pelo mundo e, principalmente, sempre fazendo grandes amizades.<br><br>Tive experiência como empreendedor, quando um amigo apresentou-me <i>Magento</i>, um framework de comércio eletrônico extremamente popular. Depois de fazer vários cursos e muita prática, consegui contratos com agências de São Paulo e Rio de Janeiro, Brasil. Essa experiência de empreendedorismo me deu a chance de ver o outro lado da moeda, o que contribuiu para expandir um pouco mais minha consciência como colaborador.<br><br>Atualmente, continuo buscando novas habilidades, aprendendo e compartilhando meu humilde conhecimento, tanto quanto possível."
-        },
-        {
             "language": "en",
-            "description": "My path as a <i>programmer</i> has started at nineish years old, when I've fallen in love with <i>Logo</i>, an educational programming language used to captivate kids in the wonderful lands of <i>Programming</i>. I used to spend hours in a row trying to build figures and animations, using math and geometry. At that time, I just did not know the exciting challenges that were yet to come.<br><br>A few years later, I got an internship as a <i>Webmaster</i>, since then, I have never stopped. It has been more than a decade, where I'm having the chance to work with marvelous people, learning every day, traveling the world, and mainly, always making great friendships.<br><br>I had an entrepreneurship experience, when a friend of mine presented me <i>Magento</i>, an extremely popular e-commerce framework. After doing several courses and a lot of practice, I got contracts with agencies from São Paulo and Rio de Janeiro, Brazil. This entrepreneurship experience gave me the chance to see the other side of the coin, which contributed to sort of expand a bit more my consciousness as an employee.<br><br>Nowadays, I keep seeking new skills, learning and sharing my humble knowledge as much as possible."
+            "description": "I was introduced to the world of computers when I was in second standard. I attained first rank in my class when I was in first standard and my dad gifted me a computer. I used to play games all day and slowly and steadily I got attached to the computer. I started getting curious about how computers worked. By the time I was in 10th standard, my curiosity had increased greatly and I had to choose a career path going forward. Since the choice was obvious, it was a no brainer for me and I decided to get a diploma in Computer Engineering.<br><br>During my Diploma, I touched various subjects (both hardware and software) and realized that there were multiple streams to choose a career from. I explored many areas and found my mind always leaning more towards the Software world. I decided on focusing on software while keeping a small touch on the hardware using my personal projects. <br><br>After completing my diploma, I decided to expand my software knowledge with a degree in Information Technology. By this time I had already started imagining myself as a developer who would contribute in solving software world problem. My enthusiasm led me to enter many coding competitions while exploring the coding world. One thing led to another and as time passed by I was in the final year of my bachelor's degree. I found myself again at making choices where I had to choose between higher studies and getting a job. Until this time my curiosity for learning always took over while making decisions. However this time I decided to give job a try and realized that getting experience was another form of learning (I was learning while making money).<br><br>After a few years I wanted to give learning one last visit and hence I decided to get a Masters in Applied Computing. Since it was going to be the last one, I wanted it to be worthwhile so I decided to get the masters in Canada. This was the largest jump of my entire life and one of the best decisions. I bagged lots of knowledge and got some good experience in my internship. Lately I indulge myself in self-learning some interesting topics like CyberSecurity, AI and I try to collaborate and share my knowledge with curious minds in the world."
         }
     ],
     "medias": [        
         {
             "icon": "linkedin",
             "title": "LinkedIn",
-            "http": "https://www.linkedin.com/in/guilhermeborgesbastos/"
+            "http": "https://www.linkedin.com/in/kshitij-halankar/"
         },
         {
             "icon": "github",
             "title": "GitHub",
-            "http": "https://github.com/guilhermeborgesbastos"
+            "http": "https://github.com/kshitij-halankar"
         },
         {
             "icon": "facebook",
             "title": "Facebook",
-            "http": "https://www.facebook.com/guilherme.borgesbastos"
+            "http": "https://www.facebook.com/kshitij.p.halankar"
         }
     ],
     "hobbies": [        
         {
-            "icon": "biking",
-            "title": "Cycling"
+            "icon": "guitar",
+            "title": "Guitar"
         },
         {
-            "icon": "dumbbell",
-            "title": "Gym"
+            "icon": "utensils",
+            "title": "Cooking"
         },
         {
-            "icon": "suitcase-rolling",
-            "title": "Travel"
+            "icon": "mountain",
+            "title": "Trekking"
         },
         {
-            "icon": "book",
-            "title": "Read"
+            "icon": "fish",
+            "title": "Fish"
         }
     ]
 }
