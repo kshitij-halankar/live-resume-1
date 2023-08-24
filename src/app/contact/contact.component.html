@@ -19,7 +19,7 @@
                 <div class="info">
                     <p class="name" *ngIf="name"><span itemprop="name">{{ 'tag_name' | translate }}</span></p>
                     <p class="email" *ngIf="email"><fa-icon [icon]="faEnvelope" class="icon" title="Email"></fa-icon><a  href="mailto:{{ 'tag_email' | translate }}" itemprop="email">{{ 'tag_email' | translate }}</a></p>
-                    <p class="phone" *ngIf="phone"><fa-icon [icon]="faPhone" class="icon" title="Phone"></fa-icon><span itemprop="telephone">{{ 'tag_phone' | translate }}</span></p>
+                    <!-- <p class="phone" *ngIf="phone"><fa-icon [icon]="faPhone" class="icon" title="Phone"></fa-icon><span itemprop="telephone">{{ 'tag_phone' | translate }}</span></p> -->
                     <p class="location" *ngIf="location"><fa-icon [icon]="faMapMarkerAlt" class="icon" title="City"></fa-icon><span itemprop="city">{{ 'tag_location' | translate }}</span></p>
                 </div>
             </div>

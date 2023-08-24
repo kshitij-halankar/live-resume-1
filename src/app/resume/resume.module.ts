@@ -13,6 +13,7 @@ import { PostsModule } from "../posts/posts.molule";
 import { ContactService } from "../contact/contact.service";
 import { FooterComponent } from "../footer/footer.component";
 import { TranslatePipeModule } from "src/pipes/translate/translate.pipe.module";
+import { EducationModule } from "../education/education.module";
 
 @NgModule({
   imports: [
@@ -22,6 +23,7 @@ import { TranslatePipeModule } from "src/pipes/translate/translate.pipe.module";
     FontAwesomeModule,
     WelcomeModule,
     ExperienceModule,
+    EducationModule,
     PostsModule,
     TranslatePipeModule
   ],

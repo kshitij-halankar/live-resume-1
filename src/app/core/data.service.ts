@@ -7,6 +7,7 @@ import { catchError } from "rxjs/operators";
 import { IExperience } from "../experience/experience-interfaces";
 import { IAbout } from "../about/about-interfaces";
 import { IPost } from "../posts/posts-interfaces";
+import { IEducation } from "../education/education-interfaces";
 
 @Injectable()
 export class DataService {
@@ -17,6 +18,13 @@ export class DataService {
 
     getExperiences() : Observable<IExperience[]> {
         return this.http.get<IExperience[]>(this.baseUrl + "experiences.json")
+            .pipe(
+                catchError(this.handleError)
+            );
+    }
+
+    getEducation() : Observable<IEducation[]> {
+        return this.http.get<IEducation[]>(this.baseUrl + "education.json")
             .pipe(
                 catchError(this.handleError)
             );

@@ -14,6 +14,18 @@
         </context-group>
         <note priority="1" from="description">nav</note>
       </trans-unit>
+      <trans-unit id="education" datatype="html">
+        <source>Education</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/experience/experience.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <note priority="1" from="description">nav</note>
+      </trans-unit>
       <trans-unit id="previous" datatype="html">
         <source>Previous</source>
         <context-group purpose="location">
