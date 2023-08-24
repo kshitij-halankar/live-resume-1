@@ -6,7 +6,7 @@ import {
 import { UntypedFormGroup, UntypedFormControl, Validators } from "@angular/forms";
 import { ContactService } from "./contact.service";
 import { Contact } from "../model/contact.model";
-import { environment } from '../../environments/environment';
+import { tags } from "src/assets/tags/tags";
 
 @Component({
   selector: "app-contact",
@@ -63,11 +63,10 @@ export class ContactComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    const personalData = environment.personal;
-    this.name = personalData.name;
-    this.email = personalData.email;
-    this.phone = personalData.phone;
-    this.location = personalData.location;
+    this.name = tags.tag_name;
+    this.email = tags.tag_email;
+    this.phone = tags.tag_phone;
+    this.location = tags.tag_location;
 
     this.faEnvelope = faEnvelope;
     this.faPhone = faPhone;

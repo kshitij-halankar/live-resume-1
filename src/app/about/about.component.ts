@@ -1,5 +1,4 @@
 import { Component, OnInit, OnDestroy } from "@angular/core";
-import { environment } from '../../environments/environment';
 import { DataService } from "../core/data.service";
 import { IAbout } from "./about-interfaces";
 import { FaIconLibrary } from "@fortawesome/angular-fontawesome";
