@@ -9,7 +9,6 @@
         "logo": "assets/template/experience/logo/vistaar-logo.png",
         "internationalizations": [
             {
-                "language": "en",
                 "city": "Mumbai",
                 "country": "India",
                 "role": "Software Engeneer",
@@ -38,7 +37,6 @@
         "logo": "assets/template/experience/logo/vistaar-logo.png",
         "internationalizations": [
             {
-                "language": "en",
                 "city": "Mumbai",
                 "country": "India",
                 "role": "Senior Software Engineer",
@@ -77,7 +75,6 @@
         "logo": "assets/template/experience/logo/soti-logo.png",
         "internationalizations": [
             {
-                "language": "en",
                 "city": "Mississauga",
                 "country": "Canada",
                 "role": "Full-stack Developer Intern",
