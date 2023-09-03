@@ -1,4 +1,4 @@
-import { Component, OnInit } from "@angular/core";
+import { AfterViewInit, Component, ElementRef, ViewChild } from "@angular/core";
 import { tags } from "src/assets/tags/tags";
 
 @Component({
@@ -10,6 +10,14 @@ import { tags } from "src/assets/tags/tags";
 export class WelcomeComponent {
 
   constructor() {}
+
+  @ViewChild('audio') audio: ElementRef;
+
+  audioPath = '../../assets/Hes_a_pirate.mp3';
+
+  ngAfterViewInit(): void {
+    this.audio.nativeElement.play();
+  }
 
   get characterIllustration(): string {
     return tags.tag_welcome_img;
