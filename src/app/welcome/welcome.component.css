@@ -5,7 +5,6 @@
 }
 
 .musicnotes {
-    /* display: block; */
     margin: auto;
     position: center;
     top: 180px;
@@ -27,26 +26,26 @@
 }
 
 .noot-1 {
-    top: 60px;
-    left: 0;
+    top: 260px;
+    left: 40%;
     animation-delay: 0.5s;
 }
 
 .noot-2 {
-    top: 30px;
-    left: 30%;
+    top: 380px;
+    left: 45%;
     animation-delay: 1s;
 }
 
 .noot-3 {
-    top: 90px;
-    left: 60%;
+    top: 340px;
+    left: 49%;
     animation-delay: 1.5s;
 }
 
 .noot-4 {
-    top: 40px;
-    left: 90%;
+    top: 370px;
+    left: 53%;
     animation-delay: 2s;
 }
 

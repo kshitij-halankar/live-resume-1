@@ -5,7 +5,6 @@ export interface IAbout {
 }
 
 export interface IAboutInternationalization {
-    language: string;
     description: string;
 }
 
