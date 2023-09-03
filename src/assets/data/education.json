@@ -9,7 +9,6 @@
         "logo": "assets/template/education/logo/gpm.png",
         "internationalizations": [
             {
-                "language": "en",
                 "city": "Mumbai",
                 "country": "India",
                 "role": "Diploma in Computer Engineering",
@@ -38,7 +37,6 @@
         "logo": "assets/template/education/logo/mu.png",
         "internationalizations": [
             {
-                "language": "en",
                 "city": "Mumbai",
                 "country": "India",
                 "role": "Bachelor of Engineering in Information Technology",
@@ -77,7 +75,6 @@
         "logo": "assets/template/education/logo/uwindsor.png",
         "internationalizations": [
             {
-                "language": "en",
                 "city": "Windsor",
                 "country": "Canada",
                 "role": "Master of Applied Computing",

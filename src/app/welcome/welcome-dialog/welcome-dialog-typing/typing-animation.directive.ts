@@ -5,7 +5,6 @@ import {
 import { Typed } from "./typed";
 
 interface IPhrase {
-    language: string;
     phrases: string[];
 }
 
@@ -32,7 +31,7 @@ export class TypingAnimationDirective implements OnInit {
 
     ngOnInit () {
 
-        const nestedArr: IPhrase[] = this.data.filter(el => el.language === (this.locale || "en"));
+        const nestedArr: IPhrase[] = this.data;
         this.phrases = this._flatMap(el => el.phrases, nestedArr);
 
         if(this.checkContent()) {
