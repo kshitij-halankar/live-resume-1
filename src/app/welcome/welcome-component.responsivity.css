@@ -46,7 +46,71 @@
     
     .layer_one .avatar-container .illustration {
         height: 250px;
-    } 
+    }
+
+    .musicnotes {
+        margin: auto;
+        position: center;
+        top: 180px;
+        width: 10%;
+        min-width: 40px;
+        height: 550px;
+        border: 0px solid #414C73;
+    }
+    
+    .noot-1,
+    .noot-2,
+    .noot-3,
+    .noot-4 {
+        color: #414C73;
+        position: absolute;
+        animation: notes 2s infinite linear;
+        font-size: 15px;
+        opacity: 0;
+    }
+    
+    .noot-1 {
+        top: 160px;
+        left: 46%;
+        animation-delay: 0.5s;
+    }
+    
+    .noot-2 {
+        top: 200px;
+        left: 51%;
+        animation-delay: 1s;
+    }
+    
+    .noot-3 {
+        top: 230px;
+        left: 52%;
+        animation-delay: 1.5s;
+    }
+    
+    .noot-4 {
+        top: 200px;
+        left: 57%;
+        animation-delay: 2s;
+    }
+    
+    @keyframes notes {
+        0% {
+            transform: scale(1) translate(0, 0);
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+            transform: scale(1.5) translate(50%, -50%);
+        }
+        80% {
+            opacity: 0;
+            transform: scale(1.5) translate(100%, -100%);
+        }
+        100% {
+            transform: scale(1.5) translate(100%, -100%);
+            opacity: 0;
+        }
+    }
 }
 
 @media screen and (max-width: 320px) {
