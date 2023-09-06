@@ -1,20 +1,20 @@
 import { Component, OnInit } from "@angular/core";
 import { DataService } from "../core/data.service";
 import { IconDefinition } from "@fortawesome/free-solid-svg-icons";
-import { IPost } from "./posts-interfaces";
+import { IProject } from "./projects-interfaces";
 import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { AbstractSwipeSection } from "../core/shared/abstract.swipe.section";
 
 @Component({
-  selector: "app-posts",
-  templateUrl: "./posts.component.html",
-  styleUrls: ["./posts.component.scss", "./posts.component.responsivity.scss"]
+  selector: "app-projects",
+  templateUrl: "./projects.component.html",
+  styleUrls: ["./projects.component.scss", "./projects.component.responsivity.scss"]
 })
-export class PostsComponent extends AbstractSwipeSection implements OnInit {
+export class ProjectsComponent extends AbstractSwipeSection implements OnInit {
 
   currentPage: number = 1;
   resultsPerPage: number;
-  posts: IPost[] = [];
+  projects: IProject[] = [];
   
   faChevronLeft: IconDefinition;
   faChevronRight: IconDefinition;
@@ -27,10 +27,10 @@ export class PostsComponent extends AbstractSwipeSection implements OnInit {
     this.faChevronLeft = faChevronLeft;
     this.faChevronRight = faChevronRight;
     
-    // Fetch the Posts from the Data Service
-    this.dataService.getPosts()
-      .subscribe((posts: IPost[]) => {
-        this.posts = posts;
+    // Fetch the Projects from the Data Service
+    this.dataService.getProjects()
+      .subscribe((projects: IProject[]) => {
+        this.projects = projects;
       });
   }
 
@@ -51,6 +51,6 @@ export class PostsComponent extends AbstractSwipeSection implements OnInit {
   }
 
   public disableNextNavigation(): boolean {
-    return this.currentPage === Math.ceil(this.posts?.length / this.resultsPerPage);
+    return this.currentPage === Math.ceil(this.projects?.length / this.resultsPerPage);
   } 
 }

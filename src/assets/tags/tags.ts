@@ -10,7 +10,7 @@ export const tags = {
     tag_url : "https://kshitij-halankar.github.io/live-resume-1/",
     tag_years_old : "years old",
     tag_about_me : "About me",
-    tag_posts : "Posts",
+    tag_projects : "Projects",
     tag_contact : "Contact",
     tag_share_text : "Hello, I'm a Full-stack Java Web Developer with 10+ years of experience designing web and mobile projects. Find out more in my live-resume!",
     tag_share_url : "https://kshitij-halankar.github.io/live-resume-1/",
