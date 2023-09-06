@@ -2,25 +2,25 @@
     <div class="container">
         <div class="top-container">
             <div class="title">
-                <h1 i18n="nav@@projects">Projects</h1>
+                <h1 i18n="nav@@projects">{{ 'tags_projects_publications' | translate}}</h1>
             </div>
             <div class="navigation">
                 <a href="javascript:void(0)" class="previous" (click)="onClickPrevious()" [ngClass]="{'disabled': disablePreviousNavigation()}">
                     <div class="molding">
                         <fa-icon [icon]="faChevronLeft" class="icon" i18n-title="exp.nav@@previous" title="Previous"></fa-icon>
-                        <span i18n="exp.nav@@previous">Previous</span>
+                        <span i18n="exp.nav@@previous">{{ 'tags_previous' | translate}}</span>
                     </div>
                 </a>
                 <div class="divider">|</div>
                 <a href="javascript:void(0)" class="next" (click)="onClickNext()" [ngClass]="{'disabled': disableNextNavigation()}">
                     <div class="molding">
-                        <span i18n="exp.nav@@next">Next</span>
+                        <span i18n="exp.nav@@next">{{ 'tags_next' | translate}}</span>
                         <fa-icon [icon]="faChevronRight" class="icon" i18n-title="exp.nav@@next" title="Next"></fa-icon>
                     </div>
                 </a>
             </div>
         </div>
-        <p class="synopsis" i18n="projects@@synopsis">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate sagittis velit, eget scelerisque arcu semper finibus.</p>
+        <p class="synopsis" i18n="projects@@synopsis"></p>
         <div class="middle-container" (swipe)="onSwipe($event)">
             <app-projects-carousel
                 [projects]="projects"

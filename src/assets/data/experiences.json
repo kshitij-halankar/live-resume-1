@@ -11,7 +11,7 @@
             {
                 "city": "Mumbai",
                 "country": "India",
-                "role": "Software Engeneer",
+                "role": "Software Engineer",
                 "description": "While working at <b>Vistaar Technologies</b> as a Software Engineer, I delivered several error free product releases by implementing enhancements, resolving defects, and deploying and testing combinations of builds on dev setups. My duties involved bug fixes and eradicating application security flaws where I prevented stale session and sensitive session cookie exposure by adding session replication in IDP authentication. As part of system improvement, I worked on improving application efficiency and robustness by modifying designs of API flows and refactoring code base. For catering customer requirements, I modeled 50+ customized product entities and workflows for solution features and APIs. Some of my activities included reducing build deployment and delivery time by building automation suites and scripts for daily deployment, sanity, dependency upgrades and security evaluation."
             }
         ],
