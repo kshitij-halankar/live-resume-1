@@ -1,11 +1,11 @@
-export interface IPost {
+export interface IProject {
     thumbnail: string
     http: string;
     date: string; // For the purpose of stringifying MM-DD-YYYY date format
-    internationalizations: IPostInternationalization[];
+    internationalizations: IProjectInternationalization[];
 }
 
-export interface IPostInternationalization {
+export interface IProjectInternationalization {
     language: string;
     title: string;
     description: string;

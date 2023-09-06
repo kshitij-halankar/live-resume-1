@@ -37,8 +37,8 @@ Get rid of your old and deprecated text resume by using the first **Open-source 
 * Optimized for SEO  _( Crawler and Bots from Google, Bing, etc... )_;
 * Using the schemas for structured data (schema.org);
 * Firebase integration in the contact form;
-* Composed of 5 custom sections ([Welcome](https://guilhermeborgesbastos.com/), [About Me](https://guilhermeborgesbastos.com/about), [Experiences](https://guilhermeborgesbastos.com/experience), [Posts](https://guilhermeborgesbastos.com/posts), and [Contact](https://guilhermeborgesbastos.com/contact));
-* Router fragment friendly (e.g: https://guilhermeborgesbastos.com/posts );
+* Composed of 5 custom sections ([Welcome](https://guilhermeborgesbastos.com/), [About Me](https://guilhermeborgesbastos.com/about), [Experiences](https://guilhermeborgesbastos.com/experience), and [Contact](https://guilhermeborgesbastos.com/contact));
+* Router fragment friendly (e.g: https://guilhermeborgesbastos.com/projects );
 * Source code verified by static code analyzers _(safe and ready for production)_;
 
 ## Changelog

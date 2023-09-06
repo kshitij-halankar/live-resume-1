@@ -9,7 +9,7 @@ import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
 import { WelcomeModule } from "../welcome/welcome.molule";
 import { ExperienceModule } from "../experience/experience.module";
 import { CoreModule } from "../core/core.module";
-import { PostsModule } from "../posts/posts.molule";
+import { ProjectsModule } from "../projects/projects.molule";
 import { ContactService } from "../contact/contact.service";
 import { FooterComponent } from "../footer/footer.component";
 import { TranslatePipeModule } from "src/pipes/translate/translate.pipe.module";
@@ -24,7 +24,7 @@ import { EducationModule } from "../education/education.module";
     WelcomeModule,
     ExperienceModule,
     EducationModule,
-    PostsModule,
+    ProjectsModule,
     TranslatePipeModule
   ],
   declarations: [ 

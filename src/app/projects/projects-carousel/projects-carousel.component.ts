@@ -4,14 +4,14 @@ import {
     EventEmitter, ElementRef,
     Output
 } from "@angular/core";
-import { IPost } from "../posts-interfaces";
+import { IProject } from "../projects-interfaces";
 import { trigger, state, style, animate, transition } from "@angular/animations";
 import { debounce } from "../../core/utils";
 
 @Component({
-    selector: "app-posts-carousel",
-    templateUrl: "./posts-carousel.component.html",
-    styleUrls: ["./posts-carousel.component.scss", "./posts-carousel.component.responsivity.scss"],
+    selector: "app-projects-carousel",
+    templateUrl: "./projects-carousel.component.html",
+    styleUrls: ["./projects-carousel.component.scss", "./projects-carousel.component.responsivity.scss"],
     animations: [
         trigger("fadeInOut", [
             state("void", style({
@@ -22,10 +22,10 @@ import { debounce } from "../../core/utils";
     ]
 })
 
-export class PostsCarouselComponent {
+export class ProjectsCarouselComponent {
 
-    public _posts: IPost[] = [];
-    public _originalPosts: IPost[] = [];
+    public _projects: IProject[] = [];
+    public _originalProjects: IProject[] = [];
     public _currentPage: number;
 
     @Output() resultsPerPageChanged = new EventEmitter<number>();
@@ -48,13 +48,13 @@ export class PostsCarouselComponent {
         }
     }
 
-    @Input() get posts(): IPost[] {
-        return this._posts;
+    @Input() get projects(): IProject[] {
+        return this._projects;
     }
 
-    set posts(value: IPost[]) {
+    set projects(value: IProject[]) {
         if(value) {
-            this._originalPosts = value;
+            this._originalProjects = value;
             this.onResizeElement();
         }
     }
@@ -74,12 +74,12 @@ export class PostsCarouselComponent {
 
     private populateCarousel(): void {
 
-        if(this._currentPage && this._posts) {
+        if(this._currentPage && this._projects) {
             this.start =  (this._currentPage - 1) * this.resultsPerPage;
             this.end = this._currentPage * this.resultsPerPage;
 
-            this._posts = this._originalPosts.slice(this.start, this.end);
-            this._posts.sort((a:any, b:any) => +new Date (b.date) - +new Date(a.date));
+            this._projects = this._originalProjects.slice(this.start, this.end);
+            this._projects.sort((a:any, b:any) => +new Date (b.date) - +new Date(a.date));
 
             this.resultsPerPageChanged.emit(this.resultsPerPage);
         }
