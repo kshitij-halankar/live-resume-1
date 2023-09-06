@@ -12,17 +12,17 @@
                 "city": "Mumbai",
                 "country": "India",
                 "role": "Software Engeneer",
-                "description": "<b>Fácil Tecnologias LTDA</b> is a company focused in solutions for education, its main product is a set of solutions for studying for getting the <i>driver license</i>, among them, there are multimedia, online applications, mobile apps, books, and others.<br><br>At <i>Fácil Tecnologias LTDA</i>, I got in touch with senior developers, learning best practices, patterns, and how to debate ideas and offer various solutions for the very same problem. It was the start point, a unique opportunity to turn theoretical knowledge into concrete solutions that were being used by hundreds of people every day."
+                "description": "While working at <b>Vistaar Technologies</b> as a Software Engineer, I delivered several error free product releases by implementing enhancements, resolving defects, and deploying and testing combinations of builds on dev setups. My duties involved bug fixes and eradicating application security flaws where I prevented stale session and sensitive session cookie exposure by adding session replication in IDP authentication. As part of system improvement, I worked on improving application efficiency and robustness by modifying designs of API flows and refactoring code base. For catering customer requirements, I modeled 50+ customized product entities and workflows for solution features and APIs. Some of my activities included reducing build deployment and delivery time by building automation suites and scripts for daily deployment, sanity, dependency upgrades and security evaluation."
             }
         ],
         "technologies": [
-            "PHP", "Zend Framework", "Cake Framework", "HTML", "CSS", "CSS3", "Javascript", "jQuery", "AJAX", "SOAP", "Joomla", "Wordpress", "SVN", "SQL", "MySQL", "PostgreSQL", "Windows"
+            "Java", "JavaScript", "SQL", "Oracle", "Servlet", "RESTEasy", "OData", "Node JS", "NPM", "RxJS", "REST API", "Hibernate", "JDBC", "J2EE", "RMI"
         ],
         "medias": [
             {
-                "icon": "facebook",
-                "title": "Facebook Editora Nosso Trânsito",
-                "http": "https://www.facebook.com/editoranossotransito/"
+                "icon": "linkedin",
+                "title": "LinkedIn Vistaar Technologies",
+                "http": "https://www.linkedin.com/company/vistaar-technologies"
             }
         ],
         "backgroundUrl": "assets/template/experience/mumbai.jpg"
@@ -40,27 +40,17 @@
                 "city": "Mumbai",
                 "country": "India",
                 "role": "Senior Software Engineer",
-                "description": "<b>E-tática</b> is an agency specialized in solutions for <i>e-commerce</i>, digital marketing, and visual identity since 2008, working with large, small, and medium-sized businesses, offering to their clients the know-how in the integration of <i>enterprise resource planning (ERP)</i> and <i>third-party APIs</i>, such as custom <i>payment providers</i>. It does the integration of the internal management of the online platform and physical store, being certified by the main platforms in the market.<br><br>At <i>E-tática</i> I have worked to develop custom solutions for clients wholesale and retail, valuing the quality and continuity of projects in the medium and long term."
+                "description": "After promoting to Senior Software Engineer in <b>Vistaar Technologies</b> I worked on some architecture designs such as Multiple Authentication allowing users to choose the authentication mechanism between several technologies such as LDAP and SAML. I worked on introducing enhancements in custom query language by adding 4 arithmetic expressions, 5 logical operators, and support for complex and nested queries by planning, designing, and constructing JSON query schema using Hibernate. My contribution to improving system performance included reducing overall API response time by 20% by debugging, diagnosing delays, and resolving defects in RESTful product APIs. As part of security enhancements, I enhanced security and robustness of web applications by conducting security vulnerability assessments, identifying and resolving potential security vulnerabilities. My duties mainly revolved around introducing and integrating new technologies in the application such as SAML 2.0, OAuth, OData, and Activiti by analyzing feasibility and evaluating product compatibility."
             }
         ],
         "technologies": [
-            "Magento 1.X", "PHP", "Zend Framework", "HTML", "CSS", "CSS3", "Javascript", "jQuery", "SOAP", "Wordpress", "SVN", "Payment Services", "SSH", "SSL", "Linux"
+            "Java", "Gradle", "ANT", "Nginx", "SAP", "Activiti", "JBPM", "SAML", "SSO", "LDAP", "OAuth", "ACF", "OWASP", "Azure ADFS", "RHEL", "SUSE", "Ubuntu", "CentOS"
         ],
         "medias": [
             {
                 "icon": "linkedin",
-                "title": "LinkedIn E-tática",
-                "http": "https://www.linkedin.com/company/etatica/"
-            },
-            {
-                "icon": "facebook",
-                "title": "Facebook E-tática",
-                "http": "https://www.facebook.com/etatica/"
-            },
-            {
-                "icon": "instagram",
-                "title": "Instagram E-tática",
-                "http": "https://www.instagram.com/somos_etatica/"
+                "title": "LinkedIn Vistaar Technologies",
+                "http": "https://www.linkedin.com/company/vistaar-technologies"
             }
         ],
         "backgroundUrl": "assets/template/experience/mumbai.jpg"
@@ -78,17 +68,17 @@
                 "city": "Mississauga",
                 "country": "Canada",
                 "role": "Full-stack Developer Intern",
-                "description": "At <b>Deevo Studio</b> is a company specializing in <i>web design</i> and <i>development</i> with an extensive portfolio of cases, the result of <i>20 years</i> of experience with other agencies and the corporate market. Their creations involve everything from brand development and visual identity to the creation of applications and websites, with a wide knowledge of Wordpress and Web Technologies.<br><br>At <i>Deevo Studio</i>, I had the chance to use the previously back-end knowledge combined with practical experience in JAVA development to accept the challenge to start an <i>Android Development Department</i> in the company, delivering complex <i>Android Applications</i> to companies in Brazil."
+                "description": "As a Full Stack Developer in <b>SOTI</b> I worked on several feature improvements and involved in integration between products and services to provide one-to-many relationships with the product and service instances. My duties involved bug fixing and feature enhancement where I developed customized components, templates, modules, services, and styles for Resource Permissions and Access Management using Angular and added unit tests for components. Furthermore, I performed Proof of concept on several new features including custom map system using ArcGIS to locate, track, draw geofence, and show location history of 10000+ live mobile devices. Some of my bug fixes involved increasing log accuracy by identifying and fixing log message bug affecting 300+ exception messages by introducing new log framework for business exceptions. I contributed in handling customer issue by conducting customer cases meeting and resolving critical customer issues."
             }
         ],
         "technologies": [
-            "Java (Android)", "Wordpress", "HTML", "HTML5", "CSS", "CSS3", "Javascript", "jQuery", "Google APIs", "SQL", "MySQL", "PHP", "Slim Framework", "Laravel", "SMTP", "Versioning Control", "BitBucket", "Jira", "Git", "Kanban framework"
+            "C#", "Angular", "TypeScript", "JavaScript", "SQL", "SCSS", "SQL Server", "Android", "IOS", "OAuth", "SAML", "LDAP", "Git", "JIRA", "Windows", "Jenkins", "karma", "Sonar Cube"
         ],
         "medias": [
             {
                 "icon": "linkedin",
-                "title": "LinkedIn Deevo Studio",
-                "http": "https://www.linkedin.com/company/deevo/about/"
+                "title": "LinkedIn SOTI",
+                "http": "https://ca.linkedin.com/company/soti"
             }
         ],
         "backgroundUrl": "assets/template/experience/mississauga.png"

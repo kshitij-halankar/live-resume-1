@@ -12,17 +12,17 @@
                 "city": "Mumbai",
                 "country": "India",
                 "role": "Diploma in Computer Engineering",
-                "description": "<b>Fácil Tecnologias LTDA</b> is a company focused in solutions for education, its main product is a set of solutions for studying for getting the <i>driver license</i>, among them, there are multimedia, online applications, mobile apps, books, and others.<br><br>At <i>Fácil Tecnologias LTDA</i>, I got in touch with senior developers, learning best practices, patterns, and how to debate ideas and offer various solutions for the very same problem. It was the start point, a unique opportunity to turn theoretical knowledge into concrete solutions that were being used by hundreds of people every day."
+                "description": "My Diploma of Computer Engineering in <b>Government Polytechnic of Mumbai</b> was the first stepping stone into the computer technology universe. The subjects taught helped me learn all the fundamental concepts of computer engineering which included hardware assembling, functions of hardware and software as well as their integration, programming languages, database management, web development, and networking. Academic projects helped me learn the practical implementations of the theoretical concepts taught in class. Some of the subjects I explored are: <ul><li>Object Oriented Programming</li><li>Relational Database</li><li>Computer Graphics</li><li>Microprocessors and Programming</li><li>Computer Architecture</li><li>Computer Security</li><li>Network Management</li><li>Operating Systems</li></ul>"
             }
         ],
         "technologies": [
-            "PHP", "Zend Framework", "Cake Framework", "HTML", "CSS", "CSS3", "Javascript", "jQuery", "AJAX", "SOAP", "Joomla", "Wordpress", "SVN", "SQL", "MySQL", "PostgreSQL", "Windows"
+            "Java", "C", "C++", "OOP", "Firewall", "Encryption", "AES", "DES", "IDS", "HTML", "CSS", "Javascript", "SOAP", "SQL", "MySQL", "Windows", "Linux"
         ],
         "medias": [
             {
-                "icon": "facebook",
-                "title": "Facebook Editora Nosso Trânsito",
-                "http": "https://www.facebook.com/editoranossotransito/"
+                "icon": "linkedin",
+                "title": "Linkedin Government Polytechnic Mumbai",
+                "http": "https://in.linkedin.com/company/government-polytechnic-mumbai"
             }
         ],
         "backgroundUrl": "assets/template/education/bandra.jpg"
@@ -40,27 +40,17 @@
                 "city": "Mumbai",
                 "country": "India",
                 "role": "Bachelor of Engineering in Information Technology",
-                "description": "<b>E-tática</b> is an agency specialized in solutions for <i>e-commerce</i>, digital marketing, and visual identity since 2008, working with large, small, and medium-sized businesses, offering to their clients the know-how in the integration of <i>enterprise resource planning (ERP)</i> and <i>third-party APIs</i>, such as custom <i>payment providers</i>. It does the integration of the internal management of the online platform and physical store, being certified by the main platforms in the market.<br><br>At <i>E-tática</i> I have worked to develop custom solutions for clients wholesale and retail, valuing the quality and continuity of projects in the medium and long term."
+                "description": "In my Bachelors from <b>University of Mumbai</b> I achieved <b>3<sup>rd</sup></b> academic rank among class strength of 90 students. My final year project based on IOT was acknowledged by many including review panel of <i>National Level Project Competition</i> and received praise for my ideas on advanced applications for the technology used in project. I received a Certificate of Appreciation from the IT department for this project. In addition to that, I wrote and published two technical papers on the project that illustrate the design of the system having security embedded within automated office and emphasizes implementation of security methods in various infrastructures. The subjects introduced to me helped in acquiring in-depth knowledge of the fields: <ul><li>Intelligent Systems</li><li>Computer Security</li><li>Data structures</li><li>Computer Networks</li><li>Big Data</li><li>Database Management</li><ul>"
             }
         ],
         "technologies": [
-            "Magento 1.X", "PHP", "Zend Framework", "HTML", "CSS", "CSS3", "Javascript", "jQuery", "SOAP", "Wordpress", "SVN", "Payment Services", "SSH", "SSL", "Linux"
+            "Machine Learning", "AI", "IOT", "Java", "HTML", "CSS", "CSS3", "Javascript", "jQuery", "SOAP", "SVN", "SSH", "SSL", "Linux"
         ],
         "medias": [
             {
                 "icon": "linkedin",
-                "title": "LinkedIn E-tática",
-                "http": "https://www.linkedin.com/company/etatica/"
-            },
-            {
-                "icon": "facebook",
-                "title": "Facebook E-tática",
-                "http": "https://www.facebook.com/etatica/"
-            },
-            {
-                "icon": "instagram",
-                "title": "Instagram E-tática",
-                "http": "https://www.instagram.com/somos_etatica/"
+                "title": "LinkedIn University of Mumbai",
+                "http": "https://in.linkedin.com/school/university-of-mumbai/"
             }
         ],
         "backgroundUrl": "assets/template/education/andheri.jpg"
@@ -78,17 +68,17 @@
                 "city": "Windsor",
                 "country": "Canada",
                 "role": "Master of Applied Computing",
-                "description": "At <b>Deevo Studio</b> is a company specializing in <i>web design</i> and <i>development</i> with an extensive portfolio of cases, the result of <i>20 years</i> of education with other agencies and the corporate market. Their creations involve everything from brand development and visual identity to the creation of applications and websites, with a wide knowledge of Wordpress and Web Technologies.<br><br>At <i>Deevo Studio</i>, I had the chance to use the previously back-end knowledge combined with practical education in JAVA development to accept the challenge to start an <i>Android Development Department</i> in the company, delivering complex <i>Android Applications</i> to companies in Brazil."
+                "description": "At <b>University of Windsor</b> I studied many advanced level subjects and explored several cutting-edge concepts in depth. From identifying new software engineering practices to generating new algorithms, I dived into several new and challenging tasks. I received Acknowledgement from Golden Key International Honor Society for Outstanding Academic Achievements during my Masters. Some of the subjects I learned are: <ul><li>Advanced Software Engineering</li><li>Advanced Database Topics</li><li>Advanced Computing Concepts</li><li>Advanced Systems Programming</li><li>Networking and Data Security</li><li>Advanced Internet Applications</li><li>Emerging Paradigms in Computer Technology</li></ul>"
             }
         ],
         "technologies": [
-            "Java (Android)", "Wordpress", "HTML", "HTML5", "CSS", "CSS3", "Javascript", "jQuery", "Google APIs", "SQL", "MySQL", "PHP", "Slim Framework", "Laravel", "SMTP", "Versioning Control", "BitBucket", "Jira", "Git", "Kanban framework"
+            "Java", "C#", "Python", "React", "Angular", "CSS", "Javascript", "MongoDB", "MSSQL", "SQL", "Hibernate", "Firebase", "Redux", "Django", "Flutter", "Git", "Jira", "Flask", "GraphQL", "Unity", "Vercel", "NodeJS"
         ],
         "medias": [
             {
                 "icon": "linkedin",
-                "title": "LinkedIn Deevo Studio",
-                "http": "https://www.linkedin.com/company/deevo/about/"
+                "title": "LinkedIn UWindsor",
+                "http": "https://ca.linkedin.com/school/uwindsor/"
             }
         ],
         "backgroundUrl": "assets/template/education/windsor.jpg"
