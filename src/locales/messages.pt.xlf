@@ -12,7 +12,7 @@
         <note priority="1" from="description">nav</note>
       </trans-unit>
       <trans-unit id="readMore" datatype="html">
-        <source>Read more</source>
+        <source>CheckOut</source>
         <target>Saiba mais</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/projects/projects-carousel/projects-carousel.component.html</context>

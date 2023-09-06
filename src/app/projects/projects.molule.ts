@@ -5,9 +5,10 @@ import { ProjectsCarouselComponent } from "./projects-carousel/projects-carousel
 import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
 import { CommonModule } from "@angular/common";
 import { CoreModule } from "../core/core.module";
+import { TranslatePipeModule } from "src/pipes/translate/translate.pipe.module";
 
 @NgModule({
-    imports: [ CommonModule, FontAwesomeModule, CoreModule, BrowserAnimationsModule ],
+    imports: [ CommonModule, FontAwesomeModule, CoreModule, BrowserAnimationsModule, TranslatePipeModule ],
     declarations: [ ProjectsComponent, ProjectsCarouselComponent ],
     exports: [ ProjectsComponent ]
 })
