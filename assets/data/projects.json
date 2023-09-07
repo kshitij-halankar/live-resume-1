@@ -1,6 +1,6 @@
 [
     {
-        "thumbnail": "assets/projects/post-11-03-2019.jpg",
+        "thumbnail": "assets/projects/zomaze.png",
         "http": "https://github.com/kshitij-halankar/Zomaze",
         "date": "02-02-2022",
         "internationalizations": [
@@ -11,7 +11,7 @@
         ]
     },
     {
-        "thumbnail": "assets/projects/post-01-15-2019.jpg",
+        "thumbnail": "assets/projects/web_search_engine.png",
         "http": "https://github.com/kshitij-halankar/ACC-Web-Search-Engine",
         "date": "04-15-2022",
         "internationalizations": [
@@ -22,7 +22,7 @@
         ]
     },
     {
-        "thumbnail": "assets/projects/post-07-10-2016.jpg",
+        "thumbnail": "assets/projects/migrator_ext.png",
         "http": "https://github.com/kshitij-halankar/MigratorExt",
         "date": "07-27-2022",
         "internationalizations": [
@@ -33,7 +33,7 @@
         ]
     },
     {
-        "thumbnail": "assets/projects/post-05-07-2016.jpg",
+        "thumbnail": "assets/projects/travelr.png",
         "http": "https://github.com/kshitij-halankar/TravelR",
         "date": "10-30-2022",
         "internationalizations": [
@@ -44,7 +44,7 @@
         ]
     },
     {
-        "thumbnail": "assets/projects/post-06-18-2016.jpg",
+        "thumbnail": "assets/projects/ftp_simulation.png",
         "http": "https://github.com/kshitij-halankar/FTPsimulation",
         "date": "08-15-2022",
         "internationalizations": [
@@ -55,13 +55,35 @@
         ]
     },
     {
-        "thumbnail": "assets/projects/post-06-04-2016.jpg",
+        "thumbnail": "assets/projects/secure_automated_office.png",
         "http": "https://github.com/kshitij-halankar/SecureAutomatedOffice",
         "date": "03-04-2017",
         "internationalizations": [
             {
                 "title": "Secure Automated Office",
                 "description": "An IOT based Secure Automation system that organizations can integrate in their office without needing to worry about ubiquitous data collection and IOT component integrity. IOT device can communicate with each other in real time over an encrypted channel without losing the response speed. The algorithm features modified variant and combination of several top-grade algorithms."
+            }
+        ]
+    },
+    {
+        "thumbnail": "assets/projects/automation_office.png",
+        "http": "https://github.com/kshitij-halankar/SecureAutomatedOffice",
+        "date": "03-04-2017",
+        "internationalizations": [
+            {
+                "title": "Secure Automated Office",
+                "description": "This paper proposed an IOT based Secure Automation system design that organizations can integrate in their office for securing IOT device communication. It proposes security algorithms that feature modified variant and combination of several top-grade algorithms."
+            }
+        ]
+    },
+    {
+        "thumbnail": "assets/projects/advanced_security_methodologies.png",
+        "http": "https://ijariie.com/FormDetails.aspx?MenuScriptId=3589",
+        "date": "04-04-2017",
+        "internationalizations": [
+            {
+                "title": "Advanced Security Methodologies",
+                "description": "This paper presents the design and implementation of a secure network communication system. To secure the data transfer between IOT connected to the network, the data is encrypted with AES encryption, hence the data can't accessed by any unauthorized user. Server authentication is secured using 3 level kerberos authentication which uses combination of MD5 and AES for ticket generation. Server maintains log of the data transferred on the network. This log is encrypted using Blowfish algorithm."
             }
         ]
     }
