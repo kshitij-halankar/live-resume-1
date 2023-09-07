@@ -5,17 +5,17 @@
         <meta itemprop="knowsLanguage" content="en" />
         <meta itemprop="nationality" content="{{ 'tag_nationality' | translate }}" />
         <meta itemprop="gender" content="{{ 'tag_gender' | translate }}" />
-        <meta itemprop="email" content="guilhermeborgesbastos@gmail.com" />
+        <meta itemprop="email" content="{{ 'tag_email' | translate }}" />
         <meta itemprop="birthDate" content="{{ 'tag_dob' | translate }}" />
         <meta itemprop="url" content="{{ 'tag_url' | translate }}" />
         <div class="first-column">
-            <h1 i18n="nav@@aboutMe">About me</h1>
+            <h1 i18n="nav@@aboutMe">{{ 'tag_about_me' | translate }}</h1>
             <h2><span itemprop="name">{{ 'tag_name' | translate }}</span></h2>
             <p class="years-old">
                 <span itemprop="yearsOld">{{ yearsOld }}</span>
                 &nbsp;<span i18n="about@@yearsOld">{{ 'tag_years_old' | translate }}</span>
             </p>
-            <p class="text" appInternationalization [data]="aboutData?.internationalizations" property='description' itemprop="summary">Loading...</p>
+            <p class="text" appInternationalization [data]="aboutData?.internationalizations" property='description' itemprop="summary">{{ 'tag_loading' | translate }}</p>
             <div class="hobbies">
                 <h3>Hobbies</h3>
                 <fa-icon *ngFor="let hobby of aboutData?.hobbies" [icon]="['fas', hobby.icon]" class="icon" title="{{ hobby.title }}" itemprop="hobby"></fa-icon>

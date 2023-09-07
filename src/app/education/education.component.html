@@ -3,16 +3,16 @@
         <div class="container">
             <div class="top-container">
                 <div class="title">
-                    <h1 i18n="nav@@education">Education</h1>
+                    <h1 i18n="nav@@education">{{ 'tag_education' | translate }}</h1>
                 </div>
                 <div class="navigation">
                     <a href="javascript:void(0)" class="previous" (click)="onClickPrevious()" [ngClass]="{'disabled': disablePreviousNavigation()}">
                         <fa-icon [icon]="['fas', 'chevron-left']" class="icon" i18n-title="exp.nav@@previous" title="Previous"></fa-icon>
-                        <span i18n="exp.nav@@previous">Previous</span>
+                        <span i18n="exp.nav@@previous">{{ 'tag_previous' | translate }}</span>
                     </a>
                     <div class="devider">|</div>
                     <a href="javascript:void(0)" class="next" (click)="onClickNext()" [ngClass]="{'disabled': disableNextNavigation()}">
-                        <span i18n="exp.nav@@next">Next</span>
+                        <span i18n="exp.nav@@next">{{ 'tag_next' | translate }}</span>
                         <fa-icon [icon]="['fas', 'chevron-right']" class="icon" i18n-title="exp.nav@@next" title="Next"></fa-icon>
                     </a>
                 </div>
@@ -45,20 +45,20 @@
                                 </div>
                                 <div class="info-block">
                                     <div class="company-name"><a href="{{ exp.website }}" target="_blank">{{ exp.companyName }}</a></div>
-                                    <div class="role" appInternationalization [data]="exp.internationalizations" property='role'>Loading...</div>
+                                    <div class="role" appInternationalization [data]="exp.internationalizations" property='role'>{{ 'tag_loading' | translate }}</div>
                                     <div class="period">
                                         <span>{{ exp.startAt | safariDateFormatter | localizedDate:'MMM yyyy' }}</span>
                                         <span class="devider">-</span>
                                         <span>{{ (exp.endAt | safariDateFormatter | localizedDate:'MMM yyyy') }}</span>
                                     </div>
                                     <div class="location">
-                                        <span class="city" appInternationalization [data]="exp.internationalizations" property='city'>Loading...</span>
+                                        <span class="city" appInternationalization [data]="exp.internationalizations" property='city'>{{ 'tag_loading' | translate }}</span>
                                         <span class="devider">,&nbsp;</span>
-                                        <span class="country" appInternationalization [data]="exp.internationalizations" property='country'>Loading...</span>
+                                        <span class="country" appInternationalization [data]="exp.internationalizations" property='country'>{{ 'tag_loading' | translate }}</span>
                                     </div>
                                 </div>
                             </div>
-                            <div class="description" appInternationalization [data]="exp.internationalizations" property='description'>Loading...</div>
+                            <div class="description" appInternationalization [data]="exp.internationalizations" property='description'>{{ 'tag_loading' | translate }}</div>
                             <div class="technologies">
                                 <span class="hashtag" *ngFor="let technology of exp.technologies">{{ technology }}</span>
                             </div>

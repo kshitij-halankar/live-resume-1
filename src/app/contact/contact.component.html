@@ -25,7 +25,7 @@
             <div class="bottom-container">
                 <form [formGroup]="contactForm" (ngSubmit)="onSubmit(contactNgForm)" #contactNgForm="ngForm" [ngClass]="{'loading': isLoading}">
                     <div class="form-group">
-                        <label for="name" i18n="contact@@name">Your name:</label>
+                        <label for="name" i18n="contact@@name">{{ 'tag_your_name' | translate }}</label>
                         <input [class.is-invalid]="senderName.invalid && senderName.touched"
                             type="text" name="name" i18n-placeholder="contact@@namePlaceholder" placeholder="Mark" formControlName="name" >
                         <div class="warnings" *ngIf="(senderName.invalid && senderName.touched) || senderName.dirty">
@@ -35,7 +35,7 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="email" i18n="contact@@email">Email:</label>
+                        <label for="email" i18n="contact@@email">{{ 'tag_your_email' | translate }}</label>
                         <input [class.is-invalid]="senderEmail.invalid && senderEmail.touched"
                             type="email" name="email" i18n-placeholder="contact@@emailPlaceholder" placeholder="mark@gmail.com" formControlName="email" required>
                         <div class="warnings" *ngIf="(senderEmail.invalid && senderEmail.touched) || senderEmail.dirty">
@@ -45,7 +45,7 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="message" i18n="contact@@message">Your message:</label>
+                        <label for="message" i18n="contact@@message">{{ 'tag_your_message' | translate }}</label>
                         <textarea [class.is-invalid]="senderMessage.invalid && senderMessage.touched"
                             name="message" i18n-placeholder="contact@@messagePlaceholder" placeholder="Please write your message. I will reply as soon as possible." formControlName="message" required></textarea>
                         <div class="warnings" *ngIf="(senderMessage.invalid && senderMessage.touched) || senderMessage.dirty">

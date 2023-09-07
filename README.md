@@ -4,56 +4,27 @@
   <br>
 </h1>
 
-<div align="center">
-  
-[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://GitHub.com/guilhermeborgesbastos/live-resume/stargazers/) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/6f04e1e3103a4af58e5398e23106bb93)](https://www.codacy.com/manual/guilhermeborgesbastos/live-resume?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=guilhermeborgesbastos/live-resume&amp;utm_campaign=Badge_Grade)[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fguilhermeborgesbastos%2Flive-resume.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fguilhermeborgesbastos%2Flive-resume?ref=badge_shield) [![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](https://github.com/guilhermeborgesbastos/live-resume/wiki) [![GitHub tag](https://img.shields.io/github/tag/guilhermeborgesbastos/live-resume.svg)](https://github.com/guilhermeborgesbastos/live-resume/tags/)
-
- [![Gitter](https://badges.gitter.im/live-resume/community.svg)](https://gitter.im/live-resume/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://opensource.org/licenses/MIT) [![GitHub forks](https://img.shields.io/github/forks/guilhermeborgesbastos/live-resume.svg?style=social&label=Fork&maxAge=259100)](https://GitHub.com/guilhermeborgesbastos/live-resume/network/) [![GitHub stars](https://img.shields.io/github/stars/guilhermeborgesbastos/live-resume.svg?style=social&label=Star&maxAge=259100)](https://GitHub.com/guilhermeborgesbastos/live-resume/stargazers/)
-
-</div>
-
 <h4 align="center">
 :anchor: Stand out of the crowd by showing a professional website/resume.
   <br>:necktie: :briefcase: Build fast :rocket: and easy the best Personal Web Application resume!
 </h4>
 
-<div align="center">
-<br>
-
-[![Watch the video](/markdown/LiveResumeGuilhermeBorgesBastos-v7.1.gif)](https://guilhermeborgesbastos.com/?source=github)
-
-</div>
-
 Get rid of your old and deprecated text resume by using the first **Open-source Web Application** _(100% free)_, which makes a professional personal website and portfolio easy and quick to build.
 
 ## What is included❓
 
-* A fully functional _Angular 15_ application with a customizable template and content;
+* A fully functional _Angular_ application with a customizable template and content;
 * Totally responsive for the mobile and desktop devices _(allow mobile gestures too... ;))_;
-* Internationalization for English and Portuguese _(easy for adding/removing new languages - in18 lib)_;
 * Mobile navigation sharing _(Share the resume with native apps like Whatsapp, LinkedIn, Facebook, etc...)_;
-* A complete [Wiki](https://github.com/guilhermeborgesbastos/live-resume/wiki) that provides support;
 * Integrated with Google Analytics;
 * Optimized for SEO  _( Crawler and Bots from Google, Bing, etc... )_;
 * Using the schemas for structured data (schema.org);
 * Firebase integration in the contact form;
-* Composed of 5 custom sections ([Welcome](https://guilhermeborgesbastos.com/), [About Me](https://guilhermeborgesbastos.com/about), [Experiences](https://guilhermeborgesbastos.com/experience), and [Contact](https://guilhermeborgesbastos.com/contact));
-* Router fragment friendly (e.g: https://guilhermeborgesbastos.com/projects );
+* Composed of 6 custom sections ([Welcome](https://kshitij-halankar.github.io/live-resume-1/), [About Me](https://kshitij-halankar.github.io/live-resume-1/#about), [Experiences](https://kshitij-halankar.github.io/live-resume-1/#experience), [Education](https://kshitij-halankar.github.io/live-resume-1/#education), [Projects](https://kshitij-halankar.github.io/live-resume-1/#projects) and [Contact](https://kshitij-halankar.github.io/live-resume-1/#contact));
+* Router fragment friendly (e.g: https://kshitij-halankar.github.io/live-resume-1/contact );
 * Source code verified by static code analyzers _(safe and ready for production)_;
 
-## Changelog
-[Learn about the latest improvements.](https://github.com/guilhermeborgesbastos/live-resume/CHANGELOG.md)
-
-## 🗂 Wiki Documentation & 💬 Community Chat
-
-To get more help on the setup, customization or any other aspect, accessing the following:
-
-* [Wiki on GitHub](https://github.com/guilhermeborgesbastos/live-resume/wiki) - A complete documentation, from _getting started_ until _deploy_.
-* [![Gitter](https://badges.gitter.im/live-resume/community.svg)](https://gitter.im/live-resume/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) - A _Community Chat_ for further discussions.
-
 ## ⚓Prerequisite
-
-> A video tutorial is also available [watch it](https://youtu.be/SmSCux_qx_Q) _[Video is outdated, use as guideline, if needed]_.
 
 1. It is required to have Node.js with version _14.18.1_ or higher. To see what version of Node.js is installed on your machine type the following command in the terminal:
 ```
@@ -100,7 +71,7 @@ npm install -g @angular/cli
 **Note:** the optional parameters:
 * `-o` aliases for opening the default browser as soon the application is served.
 * ` --host 0.0.0.0` is useful if you want to see how your application runs on a mobile or from some other laptop/computer/network. 
-* ` --configuration=en` in this example the application will be displayed in **en-US**, by replacing the `en`with `pt` => `--configuration pt`, the application language would be **pt-BR**. 
+* ` --configuration=en` in this example the application will be displayed in **en-US**. 
 
 6. After that, the command will start a server instance and listen on port `4200`. Open (http://localhost:4200/) in your browser. The **Live Resume** will be displayed.
 
@@ -108,7 +79,7 @@ npm install -g @angular/cli
 
 ## 🔨 How to customize?
 
-In the [Wiki Doc.](https://github.com/guilhermeborgesbastos/live-resume/wiki/applying-customizations) there is a specific page supporting you on how to apply customizations to the layout and more... [See page](https://github.com/guilhermeborgesbastos/live-resume/wiki/applying-customizations)
+In the tags.ts file most of the customizable data is included. To customize individual sections, use json files (for eg. about.json to make changes to about section). Images are located in assets folder.
 
 ## 🖋 Contribute
 
@@ -125,9 +96,8 @@ This project uses several open source packages:
 
 ---
 
-> Site [www.guilhermeborgesbastos.com](https://www.guilhermeborgesbastos.com)<br>
-> LinkedIn [profile](https://www.linkedin.com/in/guilhermeborgesbastos)<br>
-> Facebook [profile](https://www.facebook.com/guilherme.borgesbastos)
+> Site [kshitij-halankar.github.io/live-resume-1/](https://kshitij-halankar.github.io/live-resume-1/)<br>
+> LinkedIn [profile](https://www.linkedin.com/in/kshitij-halankar)
 
 ## 📝 License
 
