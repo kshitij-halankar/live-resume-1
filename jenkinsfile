@@ -10,20 +10,6 @@ pipeline {
             steps {
                 sh 'npm run build-locale'
             }
-        }
-        /*
-        // The test will be created in a second stage...
-        stage('Test') {
-            steps {
-                sh 'ng test'
-            }
-        } 
-        */       
-        stage('Deploy') {
-            steps {
-                sh 'rm -r /var/www/guilhermeborgesbastos.com/html/*'
-                sh 'cp -r ./dist/* /var/www/guilhermeborgesbastos.com/html/'
-            }
-        }             
+        }          
     }
 }
