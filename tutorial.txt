@@ -1,0 +1,23 @@
+create a website using angular and publish on github
+
+Pre-requisites:
+1. node should be installed
+2. npm should be installed
+3. angular should be installed
+4. IDE eg. VS code should be installed
+
+1. create a github repository
+2. go to repository settings > pages and configure the website link
+3. clone the repository locally
+4. build a project
+5. write the code
+6. test the code
+7. push changes to repository
+8. perform necessary steps to publish changes to gh pages
+	ng build --prod --base-href "https://<github-username>.github.io/<github-repository>/"
+	
+	ng build --configuration production --base-href "https://<github-username>.github.io/<github-repository>/"
+	
+	npx angular-cli-ghpages --dir=dist/<github-repository>
+9. go to repository settings > pages and configure the gh pages
+10. access the website
